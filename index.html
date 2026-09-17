@@ -995,6 +995,281 @@
           width: 100%;
         }
       }
+      /* Palette rebuilt from the Mente Híbrida reference: ink, antique gold and ivory. */
+      :root {
+        --ink: #080604;
+        --teal: #d3ad69;
+        --mint: #17130e;
+        --coral: #e8c873;
+        --cream: #0d0b08;
+        --paper: #f3ead8;
+        --muted: #766f64;
+        --line: #d3ad6945;
+      }
+      body {
+        background: #080604;
+        color: #f3ead8;
+      }
+      header {
+        border-color: #d3ad6929;
+        background: #080604e8;
+      }
+      header.scrolled {
+        background: #080604f2;
+        box-shadow: 0 8px 30px #0008;
+      }
+      .logo {
+        color: #f3ead8;
+      }
+      .logo small {
+        color: #d3ad69;
+      }
+      .mark {
+        background: #080604;
+        color: #e8c873;
+        border-color: #d3ad69;
+      }
+      .links > a:not(.btn) {
+        color: #f3ead8;
+      }
+      .links > a:hover {
+        color: #e8c873;
+      }
+      .btn {
+        border-color: #e8c873;
+        background: #e8c873;
+        color: #080604;
+      }
+      .btn.ghost {
+        border-color: #d3ad69;
+        background: transparent;
+        color: #f3ead8;
+      }
+      .hero {
+        background: radial-gradient(
+          circle at 82% 45%,
+          #5c431f 0,
+          #21170d 17%,
+          #080604 48%
+        );
+        color: #f3ead8;
+      }
+      .hero h1,
+      .hero h1 em {
+        color: #f3ead8;
+      }
+      .hero h1 em {
+        color: #e8c873;
+      }
+      .hero .lead,
+      .hero .note {
+        color: #cfc4b2;
+      }
+      .hero .eyebrow {
+        color: #e8c873;
+      }
+      .hero-visual:before {
+        inset: 50px 6px 0 52px;
+        border: 1px solid #d3ad6980;
+        border-radius: 50% 50% 8px 8px;
+        background: radial-gradient(
+          circle at 52% 38%,
+          #d3ad696e,
+          #1a130b 56%,
+          #080604 77%
+        );
+        box-shadow: 0 0 80px #d3ad6938;
+      }
+      .hero-visual:after {
+        right: 8px;
+        bottom: 34px;
+        width: 62px;
+        height: 62px;
+        background: #e8c873;
+        box-shadow:
+          0 0 0 12px #080604,
+          0 0 0 13px #d3ad69;
+      }
+      .hero-person {
+        height: 570px;
+        filter: drop-shadow(0 22px 30px #000a);
+      }
+      .route-line,
+      .success-pill {
+        display: none;
+      }
+      .trust {
+        background: #0d0b08;
+        border-color: #d3ad6940;
+      }
+      .trust span {
+        color: #f3ead8;
+        border-color: #d3ad6933;
+      }
+      .trust i {
+        color: #e8c873;
+      }
+      #caminhos,
+      #prazos,
+      #duvidas {
+        background: #f3ead8;
+        color: #17130e;
+      }
+      .eyebrow {
+        color: #9b742f;
+      }
+      .intro > div {
+        background: #17130e;
+        color: #f3ead8;
+      }
+      .intro > p {
+        background: #e8c873;
+        color: #17130e;
+      }
+      .card,
+      .card:nth-child(2),
+      .card:nth-child(3) {
+        border: 1px solid #d3ad6952;
+        background: #17130e;
+        color: #f3ead8;
+      }
+      .card p {
+        color: #c7bdad;
+      }
+      .tag {
+        background: #e8c873;
+        color: #17130e;
+      }
+      .card .big {
+        color: #e8c87317;
+      }
+      .process {
+        background: #080604;
+        color: #f3ead8;
+      }
+      .process .eyebrow {
+        color: #e8c873;
+      }
+      .process .lead,
+      .process .step p {
+        color: #bdb4a6;
+      }
+      .process .step {
+        border-color: #d3ad6959;
+      }
+      .process .step:before {
+        background: #080604;
+        color: #e8c873;
+      }
+      .scope {
+        background: #d3ad6945;
+      }
+      .scope > div {
+        background: #11100d;
+      }
+      .scope strong {
+        color: #e8c873;
+      }
+      .scope p {
+        color: #bdb4a6;
+      }
+      .timeline:before {
+        background: #a98a53;
+      }
+      .time:before {
+        border-color: #f3ead8;
+        background: #9b742f;
+        box-shadow: 0 0 0 1px #9b742f;
+      }
+      .timeline p {
+        color: #665f56;
+      }
+      .source {
+        border-color: #b99555;
+        background: #e9ddc7;
+        color: #5e574e;
+      }
+      .source a {
+        color: #765616;
+      }
+      .limits {
+        background: #100e0b;
+        color: #f3ead8;
+      }
+      .limits .eyebrow {
+        color: #e8c873;
+      }
+      .scope-card,
+      .scope-card.no {
+        border: 1px solid #d3ad694f;
+        background: #191611;
+      }
+      .icon,
+      .no .icon {
+        background: #e8c873;
+        color: #080604;
+      }
+      .list li {
+        color: #c7bdad;
+        border-color: #d3ad6938;
+      }
+      #duvidas details {
+        border-color: #bda575;
+      }
+      #duvidas details p {
+        color: #685f54;
+      }
+      #duvidas summary:after {
+        color: #9b742f;
+      }
+      .cta {
+        background: #080604;
+      }
+      .cta-box {
+        background: linear-gradient(120deg, #d3ad69, #f0d48b);
+        color: #080604;
+      }
+      .cta-box .eyebrow,
+      .cta-box p {
+        color: #2b241b;
+      }
+      .cta-box .btn {
+        border-color: #080604;
+        background: #080604;
+        color: #f3ead8;
+      }
+      footer {
+        background: #080604;
+        color: #f3ead8;
+      }
+      .footer-grid p,
+      .footer-links a,
+      .legal {
+        color: #a99f90;
+      }
+      .legal {
+        border-color: #d3ad6935;
+      }
+      @media (max-width: 900px) {
+        .links {
+          background: #080604;
+        }
+        .hero-person {
+          height: 520px;
+        }
+      }
+      @media (max-width: 600px) {
+        .hero-person {
+          height: 450px;
+        }
+        .hero-visual:before {
+          inset: 40px 0 0 28px;
+        }
+        .hero-visual:after {
+          width: 45px;
+          height: 45px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -1045,12 +1320,11 @@
             class="hero-visual reveal"
             aria-label="Profissional celebrando a residência permanente"
           >
-            <span class="success-pill"><i></i>Seu projeto, bem apresentado</span
-            ><img
+            <img
               class="hero-person"
               src="assets/hero-consultant.png"
-              alt="Profissional sorridente segurando uma representação de Green Card"
-            /><span class="route-line" aria-hidden="true"></span>
+              alt="Profissional de tecnologia segurando uma representação de Green Card"
+            />
           </aside>
         </div>
         <div class="trust">
@@ -1347,13 +1621,13 @@
           <div class="cta-box reveal">
             <p class="eyebrow">Próximo passo</p>
             <h2>
-              Sua trajetória merece uma estratégia individual, não um
-              checklist genérico.
+              Sua trajetória merece uma estratégia individual, não um checklist
+              genérico.
             </h2>
             <p>
               Conte sua formação, área, principais conquistas e objetivo nos
-              Estados Unidos. Na primeira conversa, apresentamos nosso método,
-              o escopo do trabalho e os próximos passos.
+              Estados Unidos. Na primeira conversa, apresentamos nosso método, o
+              escopo do trabalho e os próximos passos.
             </p>
             <div class="actions">
               <a
