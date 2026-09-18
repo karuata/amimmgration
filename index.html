@@ -1109,6 +1109,22 @@
       .trust i {
         color: #e8c873;
       }
+      .trust strong {
+        display: block;
+        color: #e8c873;
+        font:
+          600 1.55rem "Playfair Display",
+          serif;
+        line-height: 1.1;
+      }
+      .trust small {
+        display: block;
+        margin-top: 3px;
+        color: #928877;
+        font-size: 0.64rem;
+        font-weight: 400;
+        line-height: 1.25;
+      }
       #caminhos,
       #prazos,
       #duvidas {
@@ -1329,9 +1345,14 @@
         </div>
         <div class="trust">
           <div class="wrap">
-            <span><i>●</i> Ciência & tecnologia</span
-            ><span><i>●</i> Negócios & inovação</span
-            ><span><i>●</i> Artes & projetos criativos</span>
+            <span><strong>7 anos</strong> no mercado desde 2019</span
+            ><span
+              ><strong>92%</strong> de taxa de aprovação
+              <small
+                >Casos concluídos acompanhados; resultados individuais podem
+                variar.</small
+              ></span
+            ><span><strong>100+</strong> casos acompanhados</span>
           </div>
         </div>
       </section>
@@ -1695,9 +1716,7 @@
           </div>
         </div>
         <div class="legal">
-          <span
-            >© <span id="year"></span> AM Immigration. Todos os direitos
-            reservados.</span
+          <span>© 2019 AM Immigration. Todos os direitos reservados.</span
           ><span
             >Conteúdo informativo. Não avaliamos elegibilidade, não preenchemos
             formulários e não prestamos aconselhamento jurídico.</span
@@ -1737,7 +1756,6 @@
         { threshold: 0.1 },
       );
       document.querySelectorAll(".reveal").forEach((e) => ob.observe(e));
-      document.querySelector("#year").textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
